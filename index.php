@@ -1,0 +1,51 @@
+<DOCTYPE HTML>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>HBD Pancar</title>
+        <link href="https://fonts.googleapis.com/css?family=Playwrite+VLG" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="card">
+            <div class="imgBox">
+                <div class="bark"></div>
+                <img src="cover3.jpeg">
+                <div class="text-overlay1">Ketua Guild Sebelah</div>
+                <div class="text-overlay2">Pancar</div>
+            </div>
+            <div class="details">
+                <h4 class="color1 margin">HAPPY BIRTHDAY MUKTI'P</h4>
+                <h4 class="color2 margin">(I Hope all your whishes will come true)</h4>
+                <p>Hai Maspow</p>
+                <p>Selamat Ulang Tahun</p>
+                <p>Semoga diberi kemudahan</p>
+                <p>Dalam mencari kerja</p>
+                <p>Jangan mudah menyerah</p>
+                <p>Karna didalam kegelapan yang pekat</p>
+                <p>Terdapat cahaya yang paling terang</p>
+                <p class="text-right">Form</p>
+                <p class="text-right">Almini Brotherhood</p>
+            </div>
+        </div>
+        <button onclick="showPopup()">Klik untuk ucapan spesial!</button>
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup()">&times;</span>
+                <p>Ojok lali deadline presentasi</p>
+            </div>
+        </div>
+    </body>
+    <script>
+        function showPopup() {
+            document.getElementById('popup').style.display = 'block';
+        }
+
+        function closePopup() {
+            document.getElementById('popup').style.display = 'none';
+        }
+    </script>
+    </html>
